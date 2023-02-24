@@ -1,5 +1,6 @@
 #include <stdio.h>
-
+#include <stdlib.h>
+#include <malloc.h>
 int search(int numbers[], int low, int high, int value) 
 {
 	if(high>=low){
